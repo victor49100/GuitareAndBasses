@@ -1,0 +1,16 @@
+img{
+    position: absolute;
+    height: 30vw;
+    right: 24vw;
+}
+
+#Card-text{
+    z-index: 3;
+  border-style: none;
+  position: absolute;
+  top: 17vw;
+  width: 32vw;
+  height: 2vw;
+  left: 4vw;
+
+}

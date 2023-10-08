@@ -1,0 +1,470 @@
+@font-face {
+  font-family: 'Quicksand';
+  src: url(./assets/Quicksand.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal
+}
+
+html {
+  background-color: #fff;
+  padding: 0;
+  font-family: Quicksand
+}
+
+body {
+  font-family: Quicksand;
+  margin: 0
+}
+
+a {
+  text-decoration: underline;
+  color: #000
+}
+
+#Gap {
+  padding: 5vh
+}
+
+#ContactContener {
+  font-family: Quicksand;
+  z-index: 2;
+  position: absolute;
+  height: 29vh;
+  width: 63vh;
+  top: 44vh;
+  color: #fff;
+  left: 10vh;
+  font-size: 1.9vh
+}
+
+.ContactDiv {
+  display: flex;
+  color: #000;
+  font-size: 4vh;
+  align-items: center;
+  text-decoration: none
+}
+
+.SVG {
+  width: 5vh;
+  height: auto
+}
+
+#GapHeader {
+  padding: 40vh
+}
+
+#MiniGap {
+  padding: 1vh
+}
+
+#Presentation {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 0 0;
+  grid-template-areas: ". ."
+}
+
+.NavBarGrid {
+  font-family: Quicksand;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0 0;
+  grid-template-areas: ". . . . . .";
+  width: 100%;
+  height: 40%;
+  align-items: end
+}
+
+
+#TitreImg {
+  border-radius: 20px;
+  background-color: #000000c7;
+  position: absolute;
+  font-size: 2vh;
+  top: 15vw;
+  right: 22vw;
+  z-index: 2;
+  color: #fff;
+  font-family: Quicksand;
+  font-weight: 700;
+  font-size: 3vw
+}
+
+#ImagesSplitAccueil {
+  display: grid;
+  position: relative;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0 0;
+  grid-template-areas: ". ."
+}
+
+#SplitImg {
+  height: 100%;
+  width: 100%
+}
+
+#ImgDevis {
+  width: 44vh;
+  height: auto;
+  z-index: 2;
+  position: absolute;
+  top: 39vh;
+  left: 116vh
+}
+
+#ImgVenir {
+  width: 100vh;
+  height: auto;
+  z-index: 2;
+  position: absolute;
+  top: 55vh;
+  left: 76vh
+}
+
+#PresentationTxt {
+  font-family: Quicksand;
+  z-index: 1;
+  position: absolute;
+  height: 29vh;
+  width: 58vh;
+  top: 35vh;
+  color: #fff;
+  left: 10vh;
+  font-size: 0.9vw
+}
+
+#PresentationTxtDevis {
+  font-family: Quicksand;
+  z-index: 1;
+  position: absolute;
+  height: 29vh;
+  width: 63vh;
+  top: 44vh;
+  color: #fff;
+  left: 10vh;
+  font-size: 1.9vh
+}
+
+#TitrePage {
+  text-decoration-line: underline;
+  font-family: Quicksand;
+  z-index: 2;
+  position: absolute;
+  height: 29vh;
+  width: 63vh;
+  top: 28vh;
+  color: #fff;
+  font-weight: 700;
+  left: 10vh;
+  font-size: 3vh
+}
+
+#DownloadDevis {
+  display: flex;
+  justify-content: center
+}
+
+#Tabulation {
+  margin-left: 10vh
+}
+
+#TabulationContact {
+  margin-left: 5vh
+}
+
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #171617 #fff
+}
+
+::-webkit-scrollbar {
+  width: 16px
+}
+
+::-webkit-scrollbar-track {
+  background: #fff
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #171617;
+  border-radius: 10px;
+  border: 3px solid #fff
+}
+
+#buttonCustom {
+  background-color: #FFF;
+  border: 0;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: Quicksand;
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation
+}
+
+  #buttonCustom:hover {
+    background-color: #f9fafb
+  }
+
+  #buttonCustom:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px
+  }
+
+  #buttonCustom:focus-visible {
+    box-shadow: none
+  }
+
+Map {
+  position: absolute;
+  font-size: 2vh;
+  top: 50vh;
+  width: 60vh;
+  right: 129vh;
+  z-index: 2
+}
+
+#GuitareShow {
+  height: 80vh;
+  background-image: url(assets/img/realisation.webp);
+  background-repeat: no-repeat;
+  background-size: 207vh;
+  background-attachment: fixed;
+  background-position: center;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center
+}
+
+.GuitareShowImg {
+  height: 50vh;
+  border-radius: 2%;
+  transition-duration: 1s
+}
+
+  .GuitareShowImg:hover {
+    cursor: zoom-in;
+    transition-duration: 1s;
+    height: 60vh;
+    border-radius: 2%
+  }
+
+.BasseShowImg {
+  height: 50vh;
+  border-radius: 2%;
+  transition-duration: 1s
+}
+
+  .BasseShowImg:hover {
+    cursor: zoom-in;
+    transition-duration: 1s;
+    height: 60vh;
+    border-radius: 2%
+  }
+
+#BasseShow {
+  height: 80vh;
+  background-image: url(assets/img/realisation.webp);
+  background-repeat: no-repeat;
+  background-size: 207vh;
+  background-attachment: fixed;
+  background-position: center;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center
+}
+
+#TitresPresentationGuitare {
+  display: flex;
+  font-family: Quicksand;
+  color: #000;
+  font-weight: 700;
+  font-size: 4vh;
+  justify-content: center
+}
+
+.BDetail {
+  display: grid
+}
+
+.ButtonDetails {
+  font-size: 2vh;
+  height: 7vh
+}
+
+.buttonCustom {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: transparent 0 0 0 3px,rgba(18,18,18,.1) 0 6px 20px;
+  box-sizing: border-box;
+  color: #121212;
+  cursor: pointer;
+  display: flex;
+  flex: 1 1 auto;
+  font-family: Quicksand;
+  font-size: 1.2rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s,-webkit-box-shadow .2s;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation
+}
+
+  .buttonCustom:hover {
+    box-shadow: #121212 0 0 0 3px,transparent 0 0 0 0
+  }
+
+
+//LOGO
+
+#logo {
+  padding-left: 2vh;
+  padding-right: 24vh;
+  height: 15vh;
+  transition-duration: 1s;
+}
+
+#logo:hover {
+  transform: scale(1.1,1.1);
+  transition-duration: 1s
+}
+
+//navbar
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 1.2vw;
+  color: #645555;
+  padding: 1vh 1vh 1vh 1vh;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  padding: 1vh 1vh 1vh 1vh;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  font-size: 1.2vw;
+  padding: 6vh 10vh 0vh 1vh;
+  text-decoration: none;
+  color: #000000;
+}
+
+.nav > .nav-links > a:hover {
+  font-family: Quicksand;
+      transition: 1s;
+      transition-duration: 1s;
+      border: 0;
+      width: -10vh;
+      height: auto;
+      background-color: transparent;
+      color: #ac8430;
+      text-decoration: underline;
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width:1300px) {
+  .nav > .nav-btn {
+    z-index: 30;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 2.5vh;
+    height: 1vh;
+    border-radius: 2px;
+    border-top: 0.5vh solid #000;
+  }
+   .nav > .nav-btn > label:hover > span {
+    border-top: 2px solid #ac8430;
+  }
+
+  .nav > .nav-links {
+    z-index: 20;
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #ffffff;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: -6vh;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+	font-size: 2em;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+
+
+}

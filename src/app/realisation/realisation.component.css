@@ -1,0 +1,12 @@
+.col {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img{
+    width: 20em;
+}
+
+#ImgDetails{
+    display: grid;
+}
