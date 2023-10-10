@@ -5,8 +5,14 @@
 
 img{
     width: 20em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 #ImgDetails{
     display: grid;
+}
+
+#back1{
+    height: 200em;
 }
