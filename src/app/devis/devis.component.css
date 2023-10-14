@@ -1,11 +1,11 @@
-img{
-    position: absolute;
-    height: 30vw;
-    right: 24vw;
+img {
+  position: absolute;
+  height: 30vw;
+  right: 24vw;
 }
 
-#Card-text{
-    z-index: 3;
+#Card-text {
+  z-index: 3;
   border-style: none;
   position: absolute;
   top: 17vw;
@@ -14,3 +14,15 @@ img{
   left: 4vw;
 }
 
+#buttonLiens {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+button {}
