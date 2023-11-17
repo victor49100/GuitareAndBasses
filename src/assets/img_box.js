@@ -17,7 +17,7 @@ window.onload = function() {
     idpopup_img_box.style.height = '100%'
     idpopup_img_box.style.display = 'none'
     idpopup_img_box.style.position = 'fixed'
-    idpopup_img_box.style.cursor = 'pointer'
+    idpopup_img_box.style.cursor = 'zoom-out'
     idpopup_img_box.style.textAlign = 'center'
     idpopup_img_box.style.zIndex = z_index_dv_img_box
     idpopup_img_box.style.backgroundColor = bg_color_img_box
@@ -38,7 +38,7 @@ function img_box(self) {
 
         if (wimg_img_box > wwin_img_box) {
             idpopup_img_box.getElementsByTagName('img')[0].style.width = '30%'
-            idpopup_img_box.getElementsByTagName('img')[0].style.top = '300em' 
+            idpopup_img_box.getElementsByTagName('img')[0].style.top = '300em'
         }
         else if (himg_img_box > hwin_img_box) {
             idpopup_img_box.getElementsByTagName('img')[0].style.height = '90%'

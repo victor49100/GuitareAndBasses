@@ -1,18 +1,25 @@
 .col {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-img{
-    width: 20em;
-    padding-left: 2em;
-    padding-right: 2em;
+.bg-image{
+  border-radius: 20px;
 }
 
-#ImgDetails{
-    display: grid;
+img {
+  border-radius: 10px;
+  cursor: zoom-in;
+  width: 20em;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
-#back1{
-    height: 200em;
+#ImgDetails {
+  border-radius: 20px;
+  display: grid;
+}
+
+#back1 {
+  height: 200em;
 }
