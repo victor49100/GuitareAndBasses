@@ -17,7 +17,7 @@ const routes: Routes = [
   {path:'devis',component:DevisComponent},
   {path:'contact',component:ContactComponent},
   {path:'venir',component:VenirComponent},
-  {path:'detail',component:DetailsComponent},
+  {path:'detail/:id',component:DetailsComponent},
   { path: '',   redirectTo: 'accueil', pathMatch: 'full' },
   {path:'**',component:PageNotFoundComponent},
 

@@ -6,6 +6,7 @@ import { AppComponent } from './defaultComponent/app.component';
 import { RealisationComponent } from './realisation/realisation.component';
 import { ContactComponent } from './contact/contact.component';
 import {PageNotFoundComponent} from "./page-not-found/page-not-found.component";
+import {CommonModule} from "@angular/common";
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import {PageNotFoundComponent} from "./page-not-found/page-not-found.component";
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CommonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
