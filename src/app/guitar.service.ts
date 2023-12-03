@@ -13,7 +13,7 @@ export class GuitarService {
       id: '1',
       name: 'Guitar 1',
       description: 'Description of Guitar 1',
-      images: ['assets/img/Guitare1/1.webp', 'assets/img/Guitare1_2.webp', 'assets/img/Guitare1_3.webp'],
+      images: ['assets/img/Guitare1/1.webp', 'assets/img/Guitare1/2.jpg', 'assets/img/Guitare1/3.jpg', 'assets/img/Guitare1/4.jpg', 'assets/img/Guitare1/5.jpg'],
     },
     {
       id: '2',

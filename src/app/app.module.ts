@@ -7,6 +7,7 @@ import { RealisationComponent } from './realisation/realisation.component';
 import { ContactComponent } from './contact/contact.component';
 import {PageNotFoundComponent} from "./page-not-found/page-not-found.component";
 import {CommonModule} from "@angular/common";
+import {DetailsComponent} from "./details/details.component";
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import {CommonModule} from "@angular/common";
     RealisationComponent,
     ContactComponent,
     PageNotFoundComponent,
+    DetailsComponent,
   ],
   imports: [
     BrowserModule,

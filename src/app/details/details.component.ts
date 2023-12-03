@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute} from "@angular/router";
 import {GuitarService} from "../guitar.service";
+import {Guitar} from "../guitar.model";
 
 @Component({
   selector: 'app-details',
@@ -8,7 +9,7 @@ import {GuitarService} from "../guitar.service";
   styleUrls: ['./details.component.css']
 })
 export class DetailsComponent implements OnInit{
-  guitar: any; // Remplacez par le type réel de votre objet Guitar
+  guitar: any;
 
   constructor(
     private route: ActivatedRoute,

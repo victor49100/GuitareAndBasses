@@ -1,5 +1,28 @@
 <div style="color: black;" id="TitrePage">Detail</div>
+<div style="padding-top: 10vh"></div>
+<!-- Dans votre template Angular -->
+<div *ngIf="guitar.images && guitar.images.length > 0">
+  <h3>Images de la guitare {{ guitar.name }}</h3>
 
-./{{guitar.images[0]}}
+  <!-- Carrousel Bootstrap avec style personnalisé pour contrôler la largeur -->
+  <div id="guitarCarousel" class="carousel slide" data-bs-ride="carousel" style="max-width: 30%; margin: auto;">
+    <div class="carousel-inner">
+      <div *ngFor="let image of guitar.images; let i = index" class="carousel-item" [class.active]="i === 0">
+        <img [src]="image" class="d-block w-100" alt="Image de la guitare">
+      </div>
+    </div>
 
-<img src="./{{guitar.images[0]}}">
+    <button class="carousel-control-prev" type="button" data-bs-target="#guitarCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Précédent</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#guitarCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Suivant</span>
+    </button>
+  </div>
+</div>
+
+
+
+

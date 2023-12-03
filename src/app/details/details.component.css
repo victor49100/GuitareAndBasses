@@ -13,3 +13,9 @@
   max-width: 100%;
   height: auto;
 }
+
+/* Ajoutez cela dans votre fichier de style CSS */
+#guitarCarousel img {
+  max-width: 100%;
+  height: auto;
+}
