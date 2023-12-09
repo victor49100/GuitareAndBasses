@@ -8,7 +8,8 @@ import { RealisationComponent } from './realisation/realisation.component';
 import { DevisComponent } from './devis/devis.component';
 import { ContactComponent } from './contact/contact.component';
 import { VenirComponent } from './venir/venir.component';
-import { DetailsComponent } from './details/details.component';
+import {DetailsGuitaresComponent} from "./details/details-guitares/details-guitares.component";
+import {DetailsBassesComponent} from "./details/details-basses/details-basses.component";
 
 const routes: Routes = [
   {path:'accueil',component:AccueilComponent},
@@ -17,7 +18,8 @@ const routes: Routes = [
   {path:'devis',component:DevisComponent},
   {path:'contact',component:ContactComponent},
   {path:'venir',component:VenirComponent},
-  {path:'detail/:id',component:DetailsComponent},
+  {path:'detailGuitare/:id',component:DetailsGuitaresComponent},
+  {path:'detailBasse/:id',component:DetailsBassesComponent},
   { path: '',   redirectTo: 'accueil', pathMatch: 'full' },
   {path:'**',component:PageNotFoundComponent},
 

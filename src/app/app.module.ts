@@ -7,7 +7,9 @@ import { RealisationComponent } from './realisation/realisation.component';
 import { ContactComponent } from './contact/contact.component';
 import {PageNotFoundComponent} from "./page-not-found/page-not-found.component";
 import {CommonModule} from "@angular/common";
-import {DetailsComponent} from "./details/details.component";
+import {DetailsBassesComponent} from "./details/details-basses/details-basses.component";
+import { DetailsGuitaresComponent } from './details/details-guitares/details-guitares.component';
+
 
 @NgModule({
   declarations: [
@@ -15,7 +17,8 @@ import {DetailsComponent} from "./details/details.component";
     RealisationComponent,
     ContactComponent,
     PageNotFoundComponent,
-    DetailsComponent,
+    DetailsBassesComponent,
+    DetailsGuitaresComponent
   ],
   imports: [
     BrowserModule,
