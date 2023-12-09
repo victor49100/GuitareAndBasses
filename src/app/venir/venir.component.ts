@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import {AfterViewInit, Component} from '@angular/core';
+import * as L from 'leaflet';
+
 
 @Component({
   selector: 'app-venir',
