@@ -1,6 +1,7 @@
 /* votre-composant.css */
 
-#map {
-  height: 100%;
-  width: 100%;
+#Map {
+  position: absolute;
+  top: 21vw;
+  left: 5vw;
 }
