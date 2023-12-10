@@ -58,13 +58,7 @@ a {
   padding: 1vh
 }
 
-#Presentation {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  gap: 0 0;
-  grid-template-areas: ". ."
-}
+
 
 .NavBarGrid {
   font-family: Quicksand;
@@ -104,10 +98,6 @@ a {
   grid-template-areas: ". ."
 }
 
-#SplitImg {
-  height: 100%;
-  width: 100%
-}
 
 #ImgDevis {
   width: 44vh;
@@ -125,18 +115,6 @@ a {
   position: absolute;
   top: 55vh;
   left: 76vh
-}
-
-#PresentationTxt {
-  font-family: Quicksand;
-  z-index: 1;
-  position: absolute;
-  height: 29vh;
-  width: 58vh;
-  top: 35vh;
-  color: #fff;
-  left: 10vh;
-  font-size: 0.9vw
 }
 
 #PresentationTxtDevis {

@@ -5,3 +5,22 @@
   top: 21vw;
   left: 5vw;
 }
+
+#Horaire{
+  position: absolute;
+  top: 41vw;
+  left: 5vw;
+}
+
+@media (max-width: 800px) {
+  #Map{
+    top: 60vw;
+    left: 5vw;
+  }
+
+  #Horaire{
+    position: absolute;
+    top: 148vw;
+    left: 5vw;
+  }
+}

@@ -26,4 +26,18 @@ a{
   color: white;
 }
 
-button {}
+@media (max-width: 800px) {
+  #Card-text {
+    z-index: 3;
+    border-style: none;
+    position: absolute;
+    top: 70vw;
+    width: 79vw;
+    height: 2vw;
+    left: 4vw;
+  }
+
+  img {
+    display: none;
+  }
+}

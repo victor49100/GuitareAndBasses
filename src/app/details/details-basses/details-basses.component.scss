@@ -29,3 +29,15 @@
   margin-bottom: 40px;
 }
 
+@media (max-width: 800px) {
+  #CarouselAndDescrip{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 30px;
+  }
+
+  #description{
+    padding-left: 30px;
+  }
+}
