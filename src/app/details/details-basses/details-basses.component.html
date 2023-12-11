@@ -21,7 +21,6 @@
       </button>
     </div>
 
-
     <div id="description">
       <h1 class="guitar-title">Description de la guitare</h1>
       <p *ngIf="guitar.corps !== undefined"><strong>Corps:</strong> {{ guitar.corps }}</p>
@@ -40,10 +39,9 @@
       <p *ngIf="guitar.potentiometres !== undefined"><strong>Potentiomètres:</strong> {{guitar.potentiometres}}</p>
       <p *ngIf="guitar.selecteur !== undefined"><strong>Sélecteur:</strong> {{guitar.selecteur}}</p>
       <p *ngIf="guitar.attacheCourroie !== undefined"><strong>Attache Courroie:</strong> {{guitar.attacheCourroie}}</p>
-      <p><strong>Sélecteur:</strong> {{ guitar.selecteur }}</p>
-      <p><strong>Attache Courroie:</strong> {{ guitar.attacheCourroie }}</p>
+      <p *ngIf="guitar.attacheCourroie !== undefined"><strong>Sélecteur:</strong> {{ guitar.selecteur }}</p>
+      <p *ngIf="guitar.attacheCourroie !== undefined"><strong>Attache Courroie:</strong> {{ guitar.attacheCourroie }}</p>
     </div>
-
   </div>
 </div>
 <div style="padding: 3em"></div>
