@@ -72,31 +72,6 @@ a {
 }
 
 
-#TitreImg {
-  border-radius: 20px;
-  background-color: #000000c7;
-  position: absolute;
-  font-size: 2vh;
-  top: 15vw;
-  right: 22vw;
-  z-index: 2;
-  color: #fff;
-  font-family: Quicksand;
-  font-weight: 700;
-  font-size: 3vw
-}
-
-#ImagesSplitAccueil {
-  display: grid;
-  position: relative;
-  grid-auto-columns: 1fr;
-  grid-auto-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  gap: 0 0;
-  grid-template-areas: ". ."
-}
-
 
 #ImgDevis {
   width: 44vh;
@@ -326,7 +301,7 @@ Map {
 #logo {
   padding-left: 8vh;
   padding-right: 26vh;
-  height: 15vh;
+  height: 13vh;
   transition-duration: 1s;
   cursor: pointer;
 }
