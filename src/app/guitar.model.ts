@@ -8,7 +8,7 @@ export interface Guitar {
   finition?: string; // Finition
   manches?: string; // Manches
   touche?: string; // Touche
-  radius?: string; // Radius
+  Leradius?: string; // Radius
   frettes?: string; // Frettes
   diapason?: string; // Diapason
   sillet?: string; // Sillet
