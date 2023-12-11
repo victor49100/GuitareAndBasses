@@ -15,7 +15,7 @@ export class GuitarService {
       description: 'Description de la Guitare 1',
       images: ['assets/img/Guitare1/1.webp', 'assets/img/Guitare1/2.webp', 'assets/img/Guitare1/3.webp', 'assets/img/Guitare1/4.webp', 'assets/img/Guitare1/5.webp','assets/img/Guitare1/6.webp', 'assets/img/Guitare1/7.webp', 'assets/img/Guitare1/8.webp', 'assets/img/Guitare1/9.webp', 'assets/img/Guitare1/10.webp'],
       corps: "aulne",
-      tables: "Non spécifié", // L'information n'a pas été fournie
+      tables: undefined,
       finition: "vernis nitrocellulosique mat",
       manches: "érable ondé",
       touche: "érable moucheté",
@@ -87,7 +87,7 @@ export class GuitarService {
       touche: "palissandre",
       radius: "16“",
       frettes: "Inox Jescar 2.64x1.19",
-      diapason: "Non spécifié", // L'information n'a pas été fournie
+      diapason: undefined,
       sillet: "graptech et frette zéro",
       chevalet: "Gotoh 404 BO",
       mecaniques: "Gotoh 350",
@@ -110,7 +110,7 @@ export class GuitarService {
       touche: "érable moucheté",
       radius: "16“",
       frettes: "Inox Jescar 2.64x1.19",
-      diapason: "Non spécifié", // L'information n'a pas été fournie
+      diapason: undefined,
       sillet: "graptech et frette zéro",
       chevalet: "Hipshot 5A400",
       mecaniques: "Gotoh GBS 510",

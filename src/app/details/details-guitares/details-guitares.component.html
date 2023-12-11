@@ -23,25 +23,24 @@
       </button>
     </div>
 
-
     <div id="description">
       <h1 class="guitar-title">Description de la guitare</h1>
-      <p><strong>Corps:</strong> {{guitar.corps}}</p>
-      <p><strong>Tables:</strong> {{guitar.tables}}</p>
-      <p><strong>Finition:</strong> {{guitar.finition}}</p>
-      <p><strong>Manches:</strong> {{guitar.manches}}</p>
-      <p><strong>Touche:</strong> {{guitar.touche}}</p>
-      <p><strong>Radius:</strong> {{guitar.radius}}</p>
-      <p><strong>Frettes:</strong> {{guitar.frettes}}</p>
-      <p><strong>Diapason:</strong> {{guitar.diapason}}</p>
-      <p><strong>Sillet:</strong> {{guitar.sillet}}</p>
-      <p><strong>Chevalet:</strong> {{guitar.chevalet}}</p>
-      <p><strong>Micro Manche:</strong> {{guitar.microManche}}</p>
-      <p><strong>Micro Milieu:</strong> {{guitar.microMilieu}}</p>
-      <p><strong>Micro Chevalet:</strong> {{guitar.microChevalet}}</p>
-      <p><strong>Potentiomètres:</strong> {{guitar.potentiometres}}</p>
-      <p><strong>Sélecteur:</strong> {{guitar.selecteur}}</p>
-      <p><strong>Attache Courroie:</strong> {{guitar.attacheCourroie}}</p>
+      <p *ngIf="guitar.corps !== undefined"><strong>Corps:</strong> {{ guitar.corps }}</p>
+      <p *ngIf="guitar.tables !== undefined"><strong>Tables:</strong> {{ guitar.tables }}</p>
+      <p *ngIf="guitar.finition !== undefined"><strong>Finition:</strong> {{guitar.finition}}</p>
+      <p *ngIf="guitar.manches !== undefined"><strong>Manches:</strong> {{guitar.manches}}</p>
+      <p *ngIf="guitar.touche !== undefined"><strong>Touche:</strong> {{guitar.touche}}</p>
+      <p *ngIf="guitar.radius !== undefined"><strong>Radius:</strong> {{guitar.radius}}</p>
+      <p *ngIf="guitar.frettes !== undefined"><strong>Frettes:</strong> {{guitar.frettes}}</p>
+      <p *ngIf="guitar.diapason !== undefined"><strong>Diapason:</strong> {{guitar.diapason}}</p>
+      <p *ngIf="guitar.sillet !== undefined"><strong>Sillet:</strong> {{guitar.sillet}}</p>
+      <p *ngIf="guitar.chevalet !== undefined"><strong>Chevalet:</strong> {{guitar.chevalet}}</p>
+      <p *ngIf="guitar.microManche !== undefined"><strong>Micro Manche:</strong> {{guitar.microManche}}</p>
+      <p *ngIf="guitar.microMilieu !== undefined"><strong>Micro Milieu:</strong> {{guitar.microMilieu}}</p>
+      <p *ngIf="guitar.microChevalet !== undefined"><strong>Micro Chevalet:</strong> {{guitar.microChevalet}}</p>
+      <p *ngIf="guitar.potentiometres !== undefined"><strong>Potentiomètres:</strong> {{guitar.potentiometres}}</p>
+      <p *ngIf="guitar.selecteur !== undefined"><strong>Sélecteur:</strong> {{guitar.selecteur}}</p>
+      <p *ngIf="guitar.attacheCourroie !== undefined"><strong>Attache Courroie:</strong> {{guitar.attacheCourroie}}</p>
     </div>
 
   </div>
