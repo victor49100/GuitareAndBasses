@@ -1,23 +1,22 @@
-
-<div style="color: black;" id="TitrePage">Detail</div>
+<div id="TitrePage" style="color: black;">Detail</div>
 <div style="padding-top: 10vh"></div>
 
 <div *ngIf="guitar.images && guitar.images.length > 0">
   <div id="CarouselAndDescrip">
     <!-- Carrousel Bootstrap avec style personnalisé pour contrôler la largeur -->
 
-    <div id="guitarCarousel" class="carousel slide" data-bs-ride="carousel" style="width: 50%; margin: auto;">
+    <div class="carousel slide" data-bs-ride="carousel" id="guitarCarousel" style="width: 50%; margin: auto;">
       <div class="carousel-inner">
-        <div *ngFor="let image of guitar.images; let i = index" class="carousel-item" [class.active]="i === 0">
-          <img [src]="image" class="d-block w-100" alt="Image de la guitare">
+        <div *ngFor="let image of guitar.images; let i = index" [class.active]="i === 0" class="carousel-item">
+          <img [src]="image" alt="Image de la guitare" class="d-block w-100">
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#guitarCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#guitarCarousel" type="button">
+        <span aria-hidden="true" class="carousel-control-prev-icon"></span>
         <span class="visually-hidden">Précédent</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#guitarCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#guitarCarousel" type="button">
+        <span aria-hidden="true" class="carousel-control-next-icon"></span>
         <span class="visually-hidden">Suivant</span>
       </button>
     </div>
@@ -25,22 +24,22 @@
 
     <div id="description">
       <h1 class="guitar-title">Description de la guitare</h1>
-      <p><strong>Corps:</strong> {{guitar.corps}}</p>
-      <p><strong>Tables:</strong> {{guitar.tables}}</p>
-      <p><strong>Finition:</strong> {{guitar.finition}}</p>
-      <p><strong>Manches:</strong> {{guitar.manches}}</p>
-      <p><strong>Touche:</strong> {{guitar.touche}}</p>
-      <p><strong>Radius:</strong> {{guitar.radius}}</p>
-      <p><strong>Frettes:</strong> {{guitar.frettes}}</p>
-      <p><strong>Diapason:</strong> {{guitar.diapason}}</p>
-      <p><strong>Sillet:</strong> {{guitar.sillet}}</p>
-      <p><strong>Chevalet:</strong> {{guitar.chevalet}}</p>
-      <p><strong>Micro Manche:</strong> {{guitar.microManche}}</p>
-      <p><strong>Micro Milieu:</strong> {{guitar.microMilieu}}</p>
-      <p><strong>Micro Chevalet:</strong> {{guitar.microChevalet}}</p>
-      <p><strong>Potentiomètres:</strong> {{guitar.potentiometres}}</p>
-      <p><strong>Sélecteur:</strong> {{guitar.selecteur}}</p>
-      <p><strong>Attache Courroie:</strong> {{guitar.attacheCourroie}}</p>
+      <p><strong>Corps:</strong> {{ guitar.corps }}</p>
+      <p><strong>Tables:</strong> {{ guitar.tables }}</p>
+      <p><strong>Finition:</strong> {{ guitar.finition }}</p>
+      <p><strong>Manches:</strong> {{ guitar.manches }}</p>
+      <p><strong>Touche:</strong> {{ guitar.touche }}</p>
+      <p><strong>Radius:</strong> {{ guitar.radius }}</p>
+      <p><strong>Frettes:</strong> {{ guitar.frettes }}</p>
+      <p><strong>Diapason:</strong> {{ guitar.diapason }}</p>
+      <p><strong>Sillet:</strong> {{ guitar.sillet }}</p>
+      <p><strong>Chevalet:</strong> {{ guitar.chevalet }}</p>
+      <p><strong>Micro Manche:</strong> {{ guitar.microManche }}</p>
+      <p><strong>Micro Milieu:</strong> {{ guitar.microMilieu }}</p>
+      <p><strong>Micro Chevalet:</strong> {{ guitar.microChevalet }}</p>
+      <p><strong>Potentiomètres:</strong> {{ guitar.potentiometres }}</p>
+      <p><strong>Sélecteur:</strong> {{ guitar.selecteur }}</p>
+      <p><strong>Attache Courroie:</strong> {{ guitar.attacheCourroie }}</p>
     </div>
 
   </div>

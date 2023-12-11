@@ -51,13 +51,12 @@ a {
 }
 
 #GapHeader {
-  padding: 40vh
+  padding: 6wvh
 }
 
 #MiniGap {
   padding: 1vh
 }
-
 
 
 .NavBarGrid {
@@ -132,7 +131,7 @@ a {
 #TitrePage {
   text-decoration-line: underline;
   font-family: Quicksand;
-  z-index: 2;
+  //z-index: 2;
   position: absolute;
   height: 29vh;
   width: 63vh;
@@ -189,25 +188,25 @@ a {
   text-align: center;
   text-decoration: none #D1D5DB solid;
   text-decoration-thickness: auto;
-  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   cursor: pointer;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation
 }
 
-  #buttonCustom:hover {
-    background-color: #f9fafb
-  }
+#buttonCustom:hover {
+  background-color: #f9fafb
+}
 
-  #buttonCustom:focus {
-    outline: 2px solid transparent;
-    outline-offset: 2px
-  }
+#buttonCustom:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px
+}
 
-  #buttonCustom:focus-visible {
-    box-shadow: none
-  }
+#buttonCustom:focus-visible {
+  box-shadow: none
+}
 
 Map {
   position: absolute;
@@ -226,7 +225,7 @@ Map {
   background-attachment: fixed;
   background-position: center;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
   justify-items: center;
   align-items: center
@@ -238,12 +237,12 @@ Map {
   transition-duration: 1s
 }
 
-  .GuitareShowImg:hover {
-    cursor: zoom-in;
-    transition-duration: 1s;
-    height: 60vh;
-    border-radius: 2%
-  }
+.GuitareShowImg:hover {
+  cursor: zoom-in;
+  transition-duration: 1s;
+  height: 60vh;
+  border-radius: 2%
+}
 
 .BasseShowImg {
   height: 50vh;
@@ -251,12 +250,12 @@ Map {
   transition-duration: 1s
 }
 
-  .BasseShowImg:hover {
-    cursor: zoom-in;
-    transition-duration: 1s;
-    height: 60vh;
-    border-radius: 2%
-  }
+.BasseShowImg:hover {
+  cursor: zoom-in;
+  transition-duration: 1s;
+  height: 60vh;
+  border-radius: 2%
+}
 
 #BasseShow {
   height: 80vh;
@@ -266,7 +265,7 @@ Map {
   background-attachment: fixed;
   background-position: center;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
   justify-items: center;
   align-items: center
@@ -294,7 +293,7 @@ Map {
   align-items: center;
   background-color: #fff;
   border-radius: 12px;
-  box-shadow: transparent 0 0 0 3px,rgba(18,18,18,.1) 0 6px 20px;
+  box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, .1) 0 6px 20px;
   box-sizing: border-box;
   color: #121212;
   cursor: pointer;
@@ -310,16 +309,16 @@ Map {
   padding: 1rem 1.2rem;
   text-align: center;
   text-decoration: none;
-  transition: box-shadow .2s,-webkit-box-shadow .2s;
+  transition: box-shadow .2s, -webkit-box-shadow .2s;
   border: 0;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation
 }
 
-  .buttonCustom:hover {
-    box-shadow: #121212 0 0 0 3px,transparent 0 0 0 0
-  }
+.buttonCustom:hover {
+  box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0
+}
 
 
 //LOGO
@@ -333,7 +332,7 @@ Map {
 }
 
 #logo:hover {
-  transform: scale(1.1,1.1);
+  transform: scale(1.1, 1.1);
   transition-duration: 1s
 }
 
@@ -381,21 +380,21 @@ Map {
 
 .nav > .nav-links > a:hover {
   font-family: Quicksand;
-      transition: 1s;
-      transition-duration: 1s;
-      border: 0;
-      width: -10vh;
-      height: auto;
-      background-color: transparent;
-      color: #ac8430;
-      text-decoration: underline;
+  transition: 1s;
+  transition-duration: 1s;
+  border: 0;
+  width: -10vh;
+  height: auto;
+  background-color: transparent;
+  color: #ac8430;
+  text-decoration: underline;
 }
 
 .nav > #nav-check {
   display: none;
 }
 
-@media (max-width:1300px) {
+@media (max-width: 1300px) {
   .nav > .nav-btn {
     z-index: 30;
     display: inline-block;
@@ -416,7 +415,7 @@ Map {
     border-radius: 2px;
     border-top: 0.5vh solid #000;
   }
-   .nav > .nav-btn > label:hover > span {
+  .nav > .nav-btn > label:hover > span {
     border-top: 2px solid #ac8430;
   }
 
@@ -435,7 +434,7 @@ Map {
   .nav > .nav-links > a {
     display: block;
     width: 100%;
-	font-size: 2em;
+    font-size: 2em;
   }
   .nav > #nav-check:not(:checked) ~ .nav-links {
     height: 0px;

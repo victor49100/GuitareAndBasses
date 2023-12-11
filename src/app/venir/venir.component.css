@@ -1,26 +1,42 @@
 /* votre-composant.css */
 
-#Map {
+
+#MapEtDescription{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2em 1fr 2em;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
   position: absolute;
   top: 21vw;
   left: 5vw;
+  /* right: 200px; */
+  align-items: center;
+  justify-items: center;
 }
 
-#Horaire{
-  position: absolute;
-  top: 41vw;
-  left: 5vw;
-}
+
+
 
 @media (max-width: 800px) {
-  #Map{
-    top: 60vw;
-    left: 5vw;
+
+  iframe {
+    width: 90vw;
+    height: 110vw;
   }
 
-  #Horaire{
+
+  #MapEtDescription{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2em 1fr 2em;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
     position: absolute;
-    top: 148vw;
+    top: 80vw;
     left: 5vw;
+    align-items: center;
+    justify-items: center;
   }
+
 }
