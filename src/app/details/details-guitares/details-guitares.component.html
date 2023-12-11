@@ -7,7 +7,7 @@
   <div id="CarouselAndDescrip">
     <!-- Carrousel Bootstrap avec style personnalisé pour contrôler la largeur -->
 
-    <div id="guitarCarousel" class="carousel slide" data-bs-ride="carousel" style="width: 50%; margin: auto;">
+    <div id="guitarCarousel" class="carousel slide" data-interval="false" style="width: 50%; margin: auto;">
       <div class="carousel-inner">
         <div *ngFor="let image of guitar.images; let i = index" class="carousel-item" [class.active]="i === 0">
           <img [src]="image" class="d-block w-100" alt="Image de la guitare" >
