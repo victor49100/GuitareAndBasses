@@ -1,7 +1,9 @@
 /* votre-composant.css */
 
 
-#MapEtDescription{
+#MapEtDescription {
+  border-radius: 20px;
+  border: solid;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 2em 1fr 2em;
@@ -16,8 +18,6 @@
 }
 
 
-
-
 @media (max-width: 800px) {
 
   iframe {
@@ -26,7 +26,9 @@
   }
 
 
-  #MapEtDescription{
+  #MapEtDescription {
+    border-radius: 20px;
+    border: solid;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 2em 1fr 2em;
@@ -38,6 +40,4 @@
     align-items: center;
     justify-items: center;
   }
-
-
 }

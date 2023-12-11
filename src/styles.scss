@@ -415,7 +415,7 @@ Map {
     height: 0px;
   }
   .nav > #nav-check:checked ~ .nav-links {
-    height: calc(100vh - 50px);
+    height: calc(110vh - 50px);
     overflow-y: auto;
   }
 
