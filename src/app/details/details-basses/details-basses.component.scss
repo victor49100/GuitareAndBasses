@@ -25,6 +25,11 @@
 
 }
 
+#guitarCarousel{
+  width: 50%;
+  margin: auto;
+}
+
 .guitar-title {
   margin-bottom: 40px;
 }
@@ -40,4 +45,10 @@
   #description{
     padding-left: 30px;
   }
+
+  #guitarCarousel{
+    width: 80%;
+    margin: auto;
+  }
+
 }
