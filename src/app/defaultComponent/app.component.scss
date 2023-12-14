@@ -1,0 +1,27 @@
+@media screen and (min-width: 992px) {
+  .nav {
+    padding: 0;
+  }
+  .nav .nav-links a {
+    text-decoration: none;
+    padding: 1em 0;
+    position: relative;
+    margin: 0 1em;
+  }
+  .nav .nav-links a::after {
+    content: "";
+    position: absolute;
+
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: black;
+    width: 0%;
+    height: 4px;
+    transition: all 0.8s;
+  }
+  .nav .nav-links a:hover::after {
+    width: 100%;
+  }
+}
