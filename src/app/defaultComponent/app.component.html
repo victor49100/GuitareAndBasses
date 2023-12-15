@@ -1,11 +1,12 @@
 <div id="Gap"></div>
 <div class="nav">
-  <input id="nav-check" type="checkbox">
+  <input type="checkbox" id="nav-check" [(ngModel)]="isCheckboxChecked">
   <div class="nav-header">
     <div class="nav-title">
       <img id="logo" routerLink="/" src="./assets/svg/LogoDamien.svg">
     </div>
   </div>
+
   <div class="nav-btn">
     <label for="nav-check">
       <span></span>
@@ -15,11 +16,11 @@
   </div>
 
   <div class="nav-links">
-    <a class="" routerLink="/presentation">Présentation</a>
-    <a class="" routerLink="/realisation">Mes réalisations</a>
-    <a class="" routerLink="/devis">Devis</a>
-    <a class="" routerLink="/contact">Contact</a>
-    <a class="" routerLink="/venir">Venir à l'atelier</a>
+    <a (click)="disableCheckbox()" class="" routerLink="/presentation">Présentation</a>
+    <a (click)="disableCheckbox()" class="" routerLink="/realisation">Mes réalisations</a>
+    <a (click)="disableCheckbox()" class="" routerLink="/devis">Devis</a>
+    <a (click)="disableCheckbox()" class="" routerLink="/contact">Contact</a>
+    <a (click)="disableCheckbox()" class="" routerLink="/venir">Venir à l'atelier</a>
   </div>
 </div>
 

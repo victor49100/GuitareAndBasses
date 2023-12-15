@@ -11,6 +11,7 @@ import {DetailsBassesComponent} from "./details/details-basses/details-basses.co
 import { DetailsGuitaresComponent } from './details/details-guitares/details-guitares.component';
 import { LeafletModule } from '@asymmetrik/ngx-leaflet';
 import {VenirComponent} from "./venir/venir.component";
+import {FormsModule} from "@angular/forms";
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import {VenirComponent} from "./venir/venir.component";
     AppRoutingModule,
     CommonModule,
     LeafletModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
