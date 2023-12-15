@@ -42,12 +42,17 @@
     }
 
   #guitarCarousel{
-    width: 80%;
+    width: 100%;
     margin: auto;
   }
 
   #description{
     padding-left: 30px;
+  }
+
+  .carousel{
+    position: relative;
+    left: 27px;
   }
   }
 
