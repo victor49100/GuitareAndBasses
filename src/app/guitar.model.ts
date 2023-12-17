@@ -14,8 +14,8 @@ export interface Guitar {
   sillet?: string; // Sillet
   chevalet?: string; // Chevalet
   microManche?: string; // Micro manche
-  mecaniques?: string;
-  microMilieu?: string; // Micro milieu (rendu facultatif avec "?")
+  mecaniques?: string; //mecaniques
+  microMilieu?: string; // Micro milieu
   microChevalet?: string; // Micro chevalet
   potentiometres?: string; // Potentiomètres
   selecteur?: string; // Sélecteur

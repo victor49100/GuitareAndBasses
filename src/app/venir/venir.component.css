@@ -17,6 +17,14 @@
   justify-items: center;
 }
 
+img{
+  width: 40vw;
+  height: auto;
+}
+
+#MiniGap{
+  padding: 100px;
+}
 
 @media (max-width: 800px) {
 
@@ -39,5 +47,10 @@
     left: 5vw;
     align-items: center;
     justify-items: center;
+  }
+
+  img{
+    width: 140vw;
+    height: auto;
   }
 }

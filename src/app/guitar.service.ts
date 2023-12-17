@@ -24,6 +24,7 @@ export class GuitarService {
       diapason: "647,7mm (25“ ½)",
       sillet: "graptech et frette zéro",
       chevalet: "vibrato Gotoh EV510T",
+      mecaniques: "Gotoh à blocage SG381 MGT",
       microManche: "Tornade MS gilmourish",
       microMilieu: "Tornade MS gilmourish",
       microChevalet: "Tornade MS gilmourish",
