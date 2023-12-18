@@ -6,6 +6,7 @@ img {
 }
 
 #Card-text {
+  font-size: 1.2em;
   z-index: 3;
   border-style: none;
   position: absolute;

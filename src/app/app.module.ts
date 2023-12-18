@@ -12,6 +12,7 @@ import { DetailsGuitaresComponent } from './details/details-guitares/details-gui
 import { LeafletModule } from '@asymmetrik/ngx-leaflet';
 import {VenirComponent} from "./venir/venir.component";
 import {FormsModule} from "@angular/forms";
+import { VideosComponent } from './videos/videos.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import {FormsModule} from "@angular/forms";
     PageNotFoundComponent,
     DetailsBassesComponent,
     DetailsGuitaresComponent,
-    VenirComponent
+    VenirComponent,
+    VideosComponent
   ],
   imports: [
     BrowserModule,
